@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+pytorch-transformers = "*"
+gensim = "*"
+spacy = "*"
+nltk = "*"
+transformers = "*"
+bert-extractive-summarizer = "*"
+pke = {git = "https://github.com/boudinfl/pke.git"}
+pywsd = "==1.0.2"
+flashtext = "*"
+wn = "==0.0.22"
+conceptnet-lite = "*"
+fastapi = {extras = ["all"], version = "*"}
+pydantic = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+
+[dev-packages]
+ipykernel = "*"
+black = "*"
+
+[requires]
+python_version = "3.8"
